@@ -1,0 +1,27 @@
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px 0; 
+  }
+  
+  .search-container input[type="text"] {
+    height: 25px;
+    width: 100%;
+    max-width: 400px; 
+    padding: 10px 15px; 
+    font-size: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    outline: none; 
+    transition: all 0.3s ease;
+  }
+  .search-container input[type="text"]:focus {
+    border-color:crimson; 
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2); 
+  }
+  
+
+  

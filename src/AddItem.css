@@ -1,0 +1,43 @@
+/* AddItem.css */
+.add-item-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.input-wrapper {
+  position: relative;
+  flex: 1;
+}
+
+.add-item-input {
+  height: 30px;
+  width: 80%;
+  padding: 8px 40px 8px 12px; /* Adjust padding to make space for the icon */
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+.add-item-input:focus {
+  border-color: crimson;
+  outline: none;
+}
+.add-item-input::placeholder {
+  color: #aaa;
+}
+
+.add-item-icon {
+  position: absolute;
+  right: 20px; 
+  top: 40%;
+  transform: translateY(-50%);
+  color: black;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.add-item-icon:hover {
+  color: crimson; 
+ 
+}
+
